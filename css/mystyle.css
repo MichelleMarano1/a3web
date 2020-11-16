@@ -1,0 +1,66 @@
+
+/*Set default for the whole page*/
+* {
+	font-family: Arial, Verdana, sans-serif;
+	color: dimgray;
+	background-color: oldlace;
+}
+
+/*Adapted From: HTML and CSS design and build websites.pdf pg.452*/
+/*To style the header section of my layout*/
+header {
+	color: grey;
+	background-color: palegoldenrod;
+	border-radius: 25px; /* curves the border*/
+	text-align: center;
+	padding-top: 10px;
+}
+
+/* Adapted From: https://stackoverflow.com/questions/16946284/how-to-horizontally-align-ul-to-center-of-div, https://www.w3schools.com/css/css_list.asp */
+/* To style navigation bar*/
+ul {
+	list-style-type: none; /*takes away the bullet points or any list style for the links*/
+	margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+/*Adapted From: https://www.fuseneon.com*/
+/*Space out the links*/
+.Header-nav-item {
+    margin: 20px;
+}
+
+/*Adapted From: https://www.w3schools.com/css/tryit.asp?filename=trycss_text-decoration_link*/
+a {
+	color: lightyellow;
+	text-decoration: none; /*a link without underline*/
+    font-size: 12px;
+    display: block;
+    background-color: darkgrey;
+}
+
+/*Adapted From: https://www.fuseneon.com*/
+a:hover {
+	cursor: pointer;
+	color: darkslateblue;
+}
+
+/* Adapted From: https://www.w3schools.com/css/css_list.asp*/
+/* Styling the list */
+li{
+	color: darkslategray;
+	font-weight: bold;
+    text-align: left;
+    display: inline;
+    float: left;
+    background-color: darkgray;
+}
+
+/*Styling h1*/
+h1 {
+	color: darkslategray;
+	text-align: center;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
