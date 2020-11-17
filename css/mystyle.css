@@ -21,7 +21,7 @@ header {
 /* To style navigation bar*/
 ul.navbar {
 	list-style-type: none; /*takes away the bullet points or any list style for the links*/
-	margin: 10px;
+	/* margin: 10px; */
     padding: 10px;
 	overflow: hidden;
 	background-color: darkgray;
@@ -30,7 +30,7 @@ ul.navbar {
 /*Adapted From: https://www.fuseneon.com*/
 /*Space out the links*/
 .Header-nav-item {
-    margin: 20px;
+    margin: 15px;
 }
 
 /*Adapted From: https://www.w3schools.com/css/tryit.asp?filename=trycss_text-decoration_link*/
