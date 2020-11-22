@@ -19,11 +19,12 @@ header {
 
 /* Adapted From: https://stackoverflow.com/questions/16946284/how-to-horizontally-align-ul-to-center-of-div, https://www.w3schools.com/css/css_list.asp */
 /* To style navigation bar*/
-ul {
+ul.navbar {
 	list-style-type: none; /*takes away the bullet points or any list style for the links*/
 	/* margin: 10px; */
     padding: 10px;
-    overflow: hidden;
+	overflow: hidden;
+	background-color: darkgray;
 }
 
 /*Adapted From: https://www.fuseneon.com*/
@@ -41,22 +42,24 @@ a {
     background-color: darkgrey;
 }
 
+/* Adapted From: https://www.w3schools.com/css/css_list.asp*/
+/* Styling the list */
+
+li a {
+	color: darkslategray;
+	font-weight: bold;
+    text-align: left;
+    display: block;
+    float: left;
+    background-color: darkgray;
+}
+
 /*Adapted From: https://www.fuseneon.com*/
-a:hover {
+li a:hover {
 	cursor: pointer;
 	color: darkslateblue;
 }
 
-/* Adapted From: https://www.w3schools.com/css/css_list.asp*/
-/* Styling the list */
-li{
-	color: darkslategray;
-	font-weight: bold;
-    text-align: left;
-    display: inline;
-    float: left;
-    background-color: darkgray;
-}
 
 /*Styling h1*/
 h1 {
@@ -65,3 +68,13 @@ h1 {
     background-color: aliceblue;
     border-radius: 25px;
 }
+
+section {
+	float: left;
+}
+aside {
+	float: right;
+	border-radius: 25px;
+	margin: 20px;
+}
+
