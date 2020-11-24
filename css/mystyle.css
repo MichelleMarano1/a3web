@@ -69,6 +69,42 @@ h1 {
     border-radius: 25px;
 }
 
+/* H3 heading for Images on index page */
+
+.main {
+	float: left;
+
+}
+
+/* for images on index page */
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center-left;
+	align-items: center;
+	flex-flow: row wrap;
+   }
+  
+  
+  .images {
+	padding: 80px;
+	overflow: hidden;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+  }
+  
+  
+  /* this is for the text layer that is presnt when hovering over image */
+
+
+aside {
+	float: right;
+	border-radius: 25px;
+	margin: 20px;
+}
+
 .main:after {
 	content: "";
 	display: table;
@@ -83,7 +119,6 @@ h1 {
 
 .footer {
 	background-color: aliceblue;
-	display: block;
 	text-align: center;
 	padding: 10px;
 	border-radius: 25px;
