@@ -83,7 +83,7 @@ text-align: center;
 .wrapper {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center-left;
+	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
    }
