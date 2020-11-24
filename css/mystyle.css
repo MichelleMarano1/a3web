@@ -78,6 +78,12 @@ aside {
 	margin: 20px;
 }
 
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
 .footer {
 	background-color: #F1F1F1;
 	display: block;
