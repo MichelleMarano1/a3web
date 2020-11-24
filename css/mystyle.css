@@ -94,6 +94,7 @@ h1 {
   
   
   /* this is for the text layer that is presnt when hovering over image */
+  /*
   .layer {
 	opacity: 0;
 	position: absolute;
@@ -118,7 +119,7 @@ h1 {
 	width: 80%;
 	transition-timing-function: ease-in-out;
   }
-  
+  */
   
 
 
