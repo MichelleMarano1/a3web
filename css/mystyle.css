@@ -87,8 +87,7 @@ h1 {
   
   
   .images {
-	width: 296px;
-	height: 213px;
+	padding: 80px;
 	overflow: hidden;
 	position: relative;
 	justify-content: center;
