@@ -78,7 +78,7 @@ aside {
 	margin: 20px;
 }
 
-.row:after {
+.main:after {
 	content: "";
 	display: table;
 	clear: both;
