@@ -84,6 +84,12 @@ aside {
 	clear: both;
   }
 
+.content {
+	display: block;
+	padding: 10px;
+	background-color: paleturquoise;
+}
+
 .footer {
 	background-color: #F1F1F1;
 	display: block;
