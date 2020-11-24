@@ -96,6 +96,8 @@ text-align: center;
 	justify-content: center;
 	align-items: center;
 	display: flex;
+	border: 10px;
+	border-color: black;
   }
   
   
