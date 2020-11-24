@@ -69,15 +69,6 @@ h1 {
     border-radius: 25px;
 }
 
-.main {
-	float: left;
-}
-aside {
-	float: right;
-	border-radius: 25px;
-	margin: 20px;
-}
-
 .main:after {
 	content: "";
 	display: table;
