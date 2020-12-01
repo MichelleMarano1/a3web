@@ -105,7 +105,7 @@ text-align: center;
 	/* text transitions for the text appearing refernce https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp */
 	p {
 	  transition: ease-out;
-	  text-emphasis: bold;
+	  font-size: 18px;
 	}
   }
   
