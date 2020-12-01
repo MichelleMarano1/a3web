@@ -1,11 +1,12 @@
 /*Adapted From: HTML and CSS design and build websites.pdf pg.452*/
 /*To style the header section of my layout*/
 header {
-	color: grey;
+	color: rgba(128, 128, 128, 0);
 	background-color: palegoldenrod;
 	border-radius: 25px; /* curves the border*/
 	text-align: center;
 	padding-top: 10px;
+	font-family: sans-serif;
 }
 
 /* Adapted From: https://stackoverflow.com/questions/16946284/how-to-horizontally-align-ul-to-center-of-div, https://www.w3schools.com/css/css_list.asp */
