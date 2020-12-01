@@ -88,6 +88,35 @@ text-align: center;
 	display: flex;
 	 }
 
+/* this is for the text layer that is presnt when hovering over image */
+.layer {
+	opacity: 0;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 90%;
+	text-align: center;
+	padding: 5px;
+	background: #FFF;
+	color: #151E3F;
+	transition: all 1s ease;
+	/* text transitions for the text appearing refernce https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp */
+	p {
+	  transition: ease-out;
+	}
+  }
+  
+  /* hover options. For experimenting and learning about transition options e.g speed and easing
+   i referenced https://www.w3schools.com/css/css3_transitions.asp */
+  .images:hover .layer {
+	opacity: 0.7;
+	width: 80%;
+	transition-timing-function: ease-in-out;
+  }
+  
+
 aside {
 	float: right;
 	border-radius: 25px;
