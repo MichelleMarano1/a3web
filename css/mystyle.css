@@ -154,3 +154,33 @@ h5 {
   }
 
 
+/***************************************************************************/
+/*KEZIA HEALTH PAGE*/
+/*styling for Ordered List on Health Tips Page */
+ol.healthy {
+	background-color: darkseagreen ;
+	border-radius: 25px; 
+}
+
+dt {
+	padding: 10px;
+	font-size: large;
+	text-transform: uppercase;
+}
+
+
+dd { 
+	padding: 10px;
+	
+}
+
+/*KEZIA STUDY PAGE*/
+/*styling for Ordered List on Study Tips Page*/
+ol.study {
+	background-color: lavenderblush;
+	border-radius: 25px;
+	padding: 15px;
+}
+
+
+/***********************************************************************/
