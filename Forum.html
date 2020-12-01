@@ -21,6 +21,22 @@
         
         <div class = "info">
             <h3> Post your Questions Here</h3>
+            <p>Questions? Let us know here:</p>
+
+            <form id="frm1" action="/action_page.php">
+              Name: <input type="text" name="name">
+              Question: <input type="text" name="question">
+              <input type="button" onclick="myFunction()" value="Submit">
+            </form>
+            
+            <script>
+            function myFunction() {
+              document.getElementById("frm1").submit();
+            }
+            </script>
+            
+            </body>
+            </html>
             
         </div>
 
