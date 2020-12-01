@@ -19,7 +19,7 @@ body {
 }
 
 .nav-links,
-.logo {
+.guide {
 	text-decoration: none;
 	color: rgba(255, 255, 255, 0.7);
 }
@@ -29,7 +29,7 @@ body {
 	margin: 15px auto;
 }
 
-.logo {
+.guide {
 	display: inline-block;
 	font-size: 22px;
 	margin-top: 10px;
@@ -70,14 +70,14 @@ body {
 	.nav-links {
 		margin-left: 40px;
 	}
-	.logo {
+	.guide {
 		margin-top: 0;
 	}
 	.navbar-toggle {
 		display: none;
 	}
 
-	.logo:hover,
+	.guide:hover,
   	.nav-links:hover {
     color: rgba(255, 255, 255, 1);
   }
