@@ -126,7 +126,8 @@ h5 {
   }
 
 .imageLinks {
-	font-size: 20px;
+	background: none;
+	font-size: large;
 
 }
 
