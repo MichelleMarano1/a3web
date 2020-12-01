@@ -69,6 +69,12 @@ h2 {color: darkslategray;
 text-align: center;
 }
 
+h3 {color: darkslategray;
+}
+
+h5 {
+	background-color: aliceblue;
+}
 
 /*************************************************************************/
 /* HOLLIE - HOME PAGE*/
@@ -126,12 +132,6 @@ text-align: center;
 
 /*************************************************************************/
 
-aside {
-	float: right;
-	border-radius: 25px;
-	margin: 20px;
-}
-
 .main:after {
 	content: "";
 	display: table;
@@ -152,7 +152,4 @@ aside {
 	margin: 10px;
   }
 
-  h5 {
-	  background-color: aliceblue;
-  }
 
