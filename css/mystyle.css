@@ -257,11 +257,55 @@ display: flex;
 
 .imageLinks {
 	background: none;
-	font-size: large;
+	font-size: larger;
 
 }
 
+.bghome {
+background:rgb(233, 232, 232);
+}
+
 /*************************************************************************/
+/*************************************************************************/
+/*   HOLLIE- SET UP PAGE */
+
+.columnwifi {
+	float: left;
+	padding: 0 16px;
+	width: 33%;
+	padding: 10px;
+	background-color:gray;
+	text-align: center;
+	Height: 200px;
+}
+
+.columnspecs {
+	background-color: lightgray;
+	float:left;
+	padding: 10px;
+	width: 33%;
+	text-align: center;
+	height: 200px;
+}
+
+.columnSetup {
+
+	width: 33%;
+	float: left;
+	padding: 10px;
+	background-color: gray;
+	text-align: center;
+	Height: 200px;
+}
+
+
+
+
+
+
+
+
+/**************************************************************************/
 
 .main:after {
 	content: "";
