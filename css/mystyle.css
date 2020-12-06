@@ -314,22 +314,24 @@ background:rgb(243, 243, 243);
 /**************************************************************************/
 /* HOllie- Forum/Questions Page*/
 
+.questions {
+	background-color: none;
+}
 
 /* Buttons to open and close the accordion box for catagories*/
 .accordion {
-	background-color: #eee;
+	background-color:none;
 	color: #444;
-	cursor: pointer;
-	padding: 20px;
+	cursor: help;
+	padding: 25px;
 	width: 100%;
 	text-align: center;
 	border: none;
-	transition: 0.6s;
   }
   
   /* background color for button when it is hovered/clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
-	background-color: #797878;
+	background-color: #e7f1ff;
   }
   
   /* Style the accordion panel. Note: hidden by default */
@@ -338,9 +340,23 @@ background:rgb(243, 243, 243);
 	background-color: white;
 	display: none;
 	overflow: hidden;
-	transition: max-height 0.2s ease-out;
+	padding: 20px;
+	font-size: 16px;
+	font-family: 'Josefin Sans', sans-serif;
   }
 
+
+.accordion:after {
+	content: '\2295'; /* Used this table for unicodes refernce for icons https://www.rapidtables.com/code/text/unicode-characters.html */
+	font-size: 18px;
+	color: rgb(148, 147, 147);
+	float: right;
+	margin-left: 5px;
+	margin-right: 40px;
+  }
+  .active:after {
+	content: "\229D"; /* Unicode character for "minus" sign (-) */
+  }
 /**************************************************************************/
 
 .main:after {
