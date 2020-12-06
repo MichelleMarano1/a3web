@@ -224,15 +224,15 @@ h5 {
 	flex-flow: row wrap;
    }
   
-   /* Images within the wrapper for the index page */
-  .images {
-	padding: 80px;
-	overflow: hidden;
-	position: relative;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	 }
+/* Images within the wrapper for the index page */
+.images {
+padding: 80px;
+overflow: hidden;
+position: relative;
+justify-content: center;
+align-items: center;
+display: flex;
+	}
 
 /* this is for the text layer that is presnt when hovering over image */
 .layer {
