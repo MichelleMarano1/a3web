@@ -277,7 +277,7 @@ background:rgb(243, 243, 243);
 	padding: 10px;
 	background-color:lightgray;
 	text-align: center;
-	Height: 200px;
+	Height: 400px;
 }
 
 .columnspecs {
@@ -286,7 +286,7 @@ background:rgb(243, 243, 243);
 	padding: 10px;
 	width: 33%;
 	text-align: center;
-	height: 200px;
+	height: 400px;
 }
 
 .columnSetup {
@@ -296,12 +296,10 @@ background:rgb(243, 243, 243);
 	padding: 10px;
 	background-color: lightgray;
 	text-align: center;
-	Height: 200px;
+	Height: 400px;
 }
 
-.setup-section{
-	background-color: slategray;
-}
+
 
 .wifihead {background-color: gray;
 	width: 33%;
