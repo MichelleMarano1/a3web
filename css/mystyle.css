@@ -281,7 +281,7 @@ background:rgb(243, 243, 243);
 }
 
 .columnspecs {
-	background-color:none;
+	background-color:white;
 	float:left;
 	padding: 10px;
 	width: 33%;
@@ -310,7 +310,36 @@ background:rgb(243, 243, 243);
 
 }
 
+/**************************************************************************/
+/**************************************************************************/
+/* HOllie- Forum/Questions Page*/
 
+
+/* Buttons to open and close the accordion box for catagories*/
+.accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	border: none;
+	transition: 0.6s;
+  }
+  
+  /* background color for button when it is hovered/clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+	background-color: #797878;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+	padding: 0 10px;
+	background-color: white;
+	display: none;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+  }
 
 /**************************************************************************/
 
@@ -355,7 +384,7 @@ h1.info-health  {
 }
 
 ol.healthy {
-	background-color: #ffffff;
+	background-color: #635858;
 	-webkit-flex: 2;
 	-ms-flex: 2;
 	flex: 2;
