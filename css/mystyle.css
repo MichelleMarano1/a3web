@@ -201,6 +201,7 @@ h2 {color: darkslategray;
 text-align: center;
 }
 
+
 h5 {
 	color: rgb(36, 36, 36);
 }
@@ -274,13 +275,13 @@ background:rgb(243, 243, 243);
 	padding: 0 16px;
 	width: 33%;
 	padding: 10px;
-	background-color:gray;
+	background-color:lightgray;
 	text-align: center;
 	Height: 200px;
 }
 
 .columnspecs {
-	background-color: lightgray;
+	background-color:none;
 	float:left;
 	padding: 10px;
 	width: 33%;
@@ -293,15 +294,23 @@ background:rgb(243, 243, 243);
 	width: 33%;
 	float: left;
 	padding: 10px;
-	background-color: gray;
+	background-color: lightgray;
 	text-align: center;
 	Height: 200px;
 }
 
+.setup-section{
+	background-color: slategray;
+}
 
+.wifihead {background-color: gray;
+	width: 33%;
+	padding: 10px;
+	text-align: center;
+	float: left;
+	height: 50px;
 
-
-
+}
 
 
 
