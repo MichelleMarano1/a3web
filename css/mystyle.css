@@ -390,11 +390,15 @@ background:rgb(243, 243, 243);
 /***************************************************************************/
 /*KEZIA HEALTH PAGE*/
 /*styling for Ordered List on Health Tips Page */
-h1.info-health  {
+/* h1.info-health  {
 	color: #004e37;
-}
+} */
 
-.TI  {
+/* .TI  {
+	color: #62ca00;
+} */
+
+.info-health.h1 {
 	color: #62ca00;
 }
 
