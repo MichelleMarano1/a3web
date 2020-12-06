@@ -372,12 +372,11 @@ background:rgb(243, 243, 243);
 }
 
 .footer {
-	background-color: aliceblue;
+	background-color: lightslategray;
 	text-align: center;
 	padding: 10px;
-	border-radius: 25px;
 	margin: 10px;
-  }
+}
 
   
 .footer2 {
@@ -385,7 +384,7 @@ background:rgb(243, 243, 243);
 	text-align: center;
 	padding: 10px;
 	margin: 10px;
-  }
+}
 
 
 /***************************************************************************/
@@ -424,6 +423,7 @@ dd {
 ol.study {
 	padding: 15px;
 }
+
 
 
 /***********************************************************************/
