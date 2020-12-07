@@ -207,7 +207,7 @@ html {
 .specs-section{
 	padding: 50px;
 	text-align: center;
-	background-color:rgba(255, 141, 35, 0.733);
+	background-color:rgb(173 187 33);
 }
 
 h1 {
@@ -317,23 +317,51 @@ background:rgb(243, 243, 243);
 	text-align: left;
 }
 
-.rowSetup {
+.rowSetup h3 {
 	float: left;
 	padding: 10px;
 	width: 100%;
+<<<<<<< HEAD
 	background-color:rgb(241, 239, 239);
+=======
+	background-color: #444444;
+>>>>>>> 979fafb411330dd86f80ef15bec2010ed45f62cd
 	text-align: center;
 	Height: 50px;
+	color: white;
 }
 
-.rowSetup2 {
+.rowSetup2  {
 	float: left;
 	width: 100%;
 	padding: 10px;
+<<<<<<< HEAD
 	background-color:rgb(248, 248, 248);
 	Height: 350px;
+=======
+	background-color:rgb(243, 243, 243);
+	text-align: center;
+	Height: 400px;
+
+>>>>>>> 979fafb411330dd86f80ef15bec2010ed45f62cd
 }
 
+.booton {
+	border: none;
+	text-decoration: none;
+	padding: 7px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(255, 141, 35);
+	text-align: center;
+	cursor: pointer;
+	height: 179px;
+	font-size: large;
+	font-weight: bold;
+  }
+
+  .booton:hover {
+	background-color: rgb(205, 228, 0);
+  }
 
 /**************************************************************************/
 /**************************************************************************/
@@ -447,13 +475,13 @@ dt {
 	color:  rgb(105, 160, 17);
 }
 h6{
-	padding: 1px;
+	padding: 0px;
 	font-size: large;
 	font-weight: bold;
 	text-decoration: underline;
 	text-transform: uppercase;
 	color:  rgb(105, 160, 17);
-	margin-left: 122px;
+	margin-left: 24px;
 }
 
 
@@ -477,8 +505,8 @@ dl.healthy img{
 }
 
 dd { 
-	padding: 20px;
-	margin: 1.1px;
+	padding: 21px;
+	margin: 29.1px;
 }
 
 /*KEZIA STUDY PAGE*/
@@ -486,12 +514,12 @@ dd {
 .study-section {
 	padding: 50px;
 	text-align: center;
-	background-color: darkgoldenrod;
+	background-color: rgb(194, 18, 127);
 	color: white;
 }
 
 .study-section h1 {
-	color: wheat;
+	color: rgb(255, 255, 255);
 }
 
 .studytips {
@@ -504,7 +532,7 @@ dd {
 ul.study {
 	padding: 15px;
 	margin: 20px;
-	border-left: 5px solid mistyrose;
+	border-left: 5px solid rgb(0, 167, 209);
 	list-style-type: none;
 	padding: 10px 20px;
 }
@@ -534,8 +562,8 @@ Software and applications of software and programming headers*/
 .program-section {
 	padding: 50px;
 	text-align: center;
-	background-color: #a444fe;
-	color: black;
+	background-color: #af5aff;
+	color: rgb(255, 255, 255);
   }
 
 div.mattsection {
