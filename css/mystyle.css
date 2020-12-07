@@ -431,29 +431,12 @@ background:rgb(243, 243, 243);
 	color: lightyellow;
 }
 
-/*Style the icons in the side dive class*/
-/* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox */
-.sideicons{
-	width: 10%;
-	float: left;
-	background-color: lightgray;
-	-webkit-flex: 0;
-	-ms-flex:0;
-	flex: 0;
-	padding: 30px;
-
-}
-
-.sideicons img {
-	padding: 30px;
-	margin: 14px;
-}
 
 /*styling for Ordered List on Health Tips Page */
 /* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox */
 dl.healthy {
-	background-color: lightgray;
-	width: 90%;
+	background-color: lightyellow;
+	width: 100%;
 	float: left;
 	-webkit-flex: 2;
 	-ms-flex: 2;
@@ -469,6 +452,15 @@ dt {
 	color: #009e06;
 }
 
+dl.healthy img{
+	float: left;
+	padding: 20px;
+	margin: 10px;
+	-webkit-flex: 1;
+	-moz-float: 1px;
+	-ms-float: 1px;
+	flex: 1px;
+}
 
 dd { 
 	padding: 20px;
