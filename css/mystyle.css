@@ -77,6 +77,10 @@ body {
 		justify-content: flex-end;
 	}
 
+	.main-nav.active {
+		display: none;
+	}
+
 	.main-nav li {
 		margin: 0 auto;
 	}
