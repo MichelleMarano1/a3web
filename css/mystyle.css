@@ -41,7 +41,7 @@ body {
 	margin-left: 20px;
   }
 
-/********************** Not Working***********************************/
+/********************* Michelle NAVBAR **********************************/
 
 .navbar-toggle {
 	position: absolute;
@@ -90,7 +90,7 @@ body {
 		margin-top: 0;
 	}
 	.navbar-toggle {
-		display: none;
+		display: block;
 	}
 
 	.guide:hover,
