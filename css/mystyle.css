@@ -453,6 +453,25 @@ dt {
 	text-transform: uppercase;
 	color:  rgb(105, 160, 17);
 }
+h6{
+	padding: 1px;
+	font-size: large;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color:  rgb(105, 160, 17);
+	margin-left: 122px;
+}
+
+
+dt.healthy {
+	padding: 20px;
+	font-size: large;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color:  rgb(105, 160, 17);
+}
 
 dl.healthy img{
 	float: left;
