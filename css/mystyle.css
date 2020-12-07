@@ -178,7 +178,7 @@ html {
 	float: left;
 	margin-left: 8px;
 	padding: 79px 8px;
-	width: 373px;
+	width: 33%;
   }
   
   .clickme:hover {
@@ -206,13 +206,11 @@ padding: 1%;
 .footer2 {
 	color: rgb(0, 194, 228);
 	background-color: rgb(46, 46, 46);
-	position: absolute ;
-	bottom: -102px;
 	width: 100%;
-	height: 2.5rem; 
+	height: 2%; 
 	text-align: center;
-	padding: 10px;
-	margin: 10px;
+	padding: 1%;
+	margin-top: 37%;
 }
 @media screen and (max-width: 650px) {
 	.footer2 {
