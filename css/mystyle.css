@@ -576,4 +576,11 @@ div.mattsection {
 ul.mattsection {
 	margin: 20px;
 }
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
 /* modified from Michelle's about-section*/
