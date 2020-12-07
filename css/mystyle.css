@@ -200,14 +200,14 @@ html {
 .Forum-section{
 	padding: 50px;
 	text-align: center;
-	background-color: rgb(211, 189, 221);
+	background-color: rgba(255, 141, 35, 0.733);
 	color: rgb(92, 92, 92);
   }
 
 .specs-section{
 	padding: 50px;
 	text-align: center;
-	background-color: rgb(182, 125, 137);
+	background-color: rgb(246, 215, 255);
 }
 
 h1 {
@@ -362,7 +362,7 @@ background:rgb(243, 243, 243);
   
   /* background color for button when it is hovered/clicked on */
   .active, .accordion:hover {
-	background-color: #f9f4fd;
+	background-color:rgba(255, 141, 35, 0.041);
   }
   
   /* Styling Accordian */
