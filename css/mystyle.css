@@ -302,13 +302,31 @@ background:rgb(243, 243, 243);
 /*************************************************************************/
 /*************************************************************************/
 /*   HOLLIE- SET UP PAGE */
+.columnSetup {
+	float: left;
+	Width: 15%;
+	background-color:rgb(248, 248, 248);
+	padding-left: 50px;
+	padding-top: 100px;
+}
 
+.columnSetup2 {
+	float: left;
+	Width: 85%;
+	background-color:rgb(248, 248, 248);
+	padding: 20px;
+	text-align: left;
+}
 
 .rowSetup h3 {
 	float: left;
 	padding: 10px;
 	width: 100%;
+<<<<<<< HEAD
+	background-color:rgb(241, 239, 239);
+=======
 	background-color: #444444;
+>>>>>>> 979fafb411330dd86f80ef15bec2010ed45f62cd
 	text-align: center;
 	Height: 50px;
 	color: white;
@@ -318,10 +336,15 @@ background:rgb(243, 243, 243);
 	float: left;
 	width: 100%;
 	padding: 10px;
+<<<<<<< HEAD
+	background-color:rgb(248, 248, 248);
+	Height: 350px;
+=======
 	background-color:rgb(243, 243, 243);
 	text-align: center;
 	Height: 400px;
 
+>>>>>>> 979fafb411330dd86f80ef15bec2010ed45f62cd
 }
 
 .booton {
@@ -375,7 +398,7 @@ background:rgb(243, 243, 243);
 	display: none;
 	overflow: hidden;
 	padding: 20px;
-	font-size: 16px;
+	font-size: 14px;
 	font-family: 'Josefin Sans', sans-serif;
   }
 
