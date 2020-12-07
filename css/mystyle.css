@@ -415,17 +415,16 @@ background:rgb(243, 243, 243);
 	width: 10%;
 	float: left;
 	background-color: lightgray;
-	overflow-x: hidden;
 	-webkit-flex: 0;
 	-ms-flex:0;
 	flex: 0;
-	padding: 20px;
-	height: 100%;
+	padding: 30px;
+
 }
 
 .sideicons img {
 	padding: 30px;
-	margin: 1.25px;
+	margin: 14px;
 }
 
 
@@ -448,7 +447,8 @@ dt {
 
 dd { 
 	padding: 20px;
-	margin: 1px;
+	margin: 1.1px;
+
 }
 
 
