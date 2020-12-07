@@ -514,6 +514,16 @@ dd {
 	color: rgb(255, 255, 255);
 }
 
+/* Source: https://www.w3schools.com/css/css_text_shadow.asp */
+.studytips p {
+	color: slategray;
+	padding: 10px;
+	margin: 10px;
+	text-shadow: 2px 2px 8px grey;
+	font-size: large;
+
+}
+
 .studytips {
 	background-color: white;
 }
