@@ -478,7 +478,7 @@ dd {
 }
 
 .study-section h1 {
-	color: wheat;
+	color: rgb(255, 255, 255);
 }
 
 .studytips {
@@ -491,7 +491,7 @@ dd {
 ul.study {
 	padding: 15px;
 	margin: 20px;
-	border-left: 5px solid mistyrose;
+	border-left: 5px solid rgb(0, 167, 209);
 	list-style-type: none;
 	padding: 10px 20px;
 }
