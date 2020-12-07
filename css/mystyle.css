@@ -325,7 +325,8 @@ background:rgb(243, 243, 243);
 	width: 100%;
 	text-align: center;
 	Height: 50px;
-	color: rgb(248, 248, 248);
+	color: rgb(65, 65, 65);
+	background-color: rgb(235, 235, 235);
 }
 
 .rowSetup2  {
