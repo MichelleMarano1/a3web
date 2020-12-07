@@ -319,6 +319,7 @@ background:rgb(243, 243, 243);
 }
 
 /* Buttons to open and close the accordion box for catagories*/
+/* refernce used for Cursor icons https://www.w3schools.com/cssref/pr_class_cursor.asp */
 .accordion {
 	background-color:none;
 	color: #444;
@@ -329,12 +330,12 @@ background:rgb(243, 243, 243);
 	border: none;
   }
   
-  /* background color for button when it is hovered/clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* background color for button when it is hovered/clicked on */
   .active, .accordion:hover {
 	background-color: #e7f1ff;
   }
   
-  /* Style the accordion panel. Note: hidden by default */
+  /* Styling Accordian */
   .panel {
 	padding: 0 10px;
 	background-color: white;
@@ -345,17 +346,19 @@ background:rgb(243, 243, 243);
 	font-family: 'Josefin Sans', sans-serif;
   }
 
-
+/* Used this table for unicodes refernce for icons 'conten' https://www.rapidtables.com/code/text/unicode-characters.html */
 .accordion:after {
-	content: '\2295'; /* Used this table for unicodes refernce for icons https://www.rapidtables.com/code/text/unicode-characters.html */
+	content: '\2295'; 
 	font-size: 18px;
 	color: rgb(148, 147, 147);
 	float: right;
 	margin-left: 5px;
 	margin-right: 40px;
   }
+
+  /*changing the icon after it has been clicked on to open up. */
   .active:after {
-	content: "\229D"; /* Unicode character for "minus" sign (-) */
+	content: "\229D"; /* for the minus symbol */
   }
 /**************************************************************************/
 
