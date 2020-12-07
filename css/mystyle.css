@@ -121,12 +121,6 @@ html {
 	margin-bottom: 16px;
 	padding: 0 8px;
   }
-/* .column2 {
-	float: left;
-	width: 33.3%;
-	margin-bottom: 16px;
-	padding: 0 8px;
-  } */
 
   .container {	
 	background-color: #e6e6e6;
@@ -141,7 +135,6 @@ html {
 	-webkit-flex: 2;
 	-ms-flex: 2;
 	flex: 2;
-
   }
   
   .title {
@@ -193,8 +186,15 @@ html {
   }
 /*****************************************************************************/
 /*Styling h1*/
+.setup-section {
+	padding: 50px;
+	text-align: center;
+	background-color: #e9007c;
+  }
+
+
 h1 {
-	color: rgb(19, 19, 19);
+	color: rgb(42, 42, 42);
 	text-align: center;
 }
 
@@ -383,10 +383,10 @@ background:rgb(243, 243, 243);
 }
 
 .footer {
-	background-color: black;
+	background-color: rgb(46, 46, 46);
 	color: whitesmoke;
 	text-align: center;
-	padding: 15px;
+	padding: 10px;
 }
 
 
