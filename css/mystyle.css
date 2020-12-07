@@ -461,16 +461,13 @@ dd {
 }
 
 .study-section h1 {
-	color: lightyellow;
-}
-
-.study-section p {
 	color: slategrey;
 }
 
 .studytips {
 	background-color: white;
 }
+
 
 /* Style the Ordered List */
 /* Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_list-style-red-border */
@@ -486,7 +483,7 @@ ul.study {
 ul.study li {
 	color: slategray;
 	padding: 10px;
-	border-bottom: 1px solid mistyrose;
+	/* border-bottom: 1px solid mistyrose; */
 }
 
 
