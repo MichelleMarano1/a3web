@@ -282,7 +282,9 @@ padding: 1%;
    i referenced https://www.w3schools.com/css/css3_transitions.asp */
   .images:hover .layer {
 	opacity: 0.7;
-	width: 80%;
+	width: 291px;
+	height: 211px;
+	border-radius: 12px;
 	transition-timing-function: ease-in-out;
   }
 
