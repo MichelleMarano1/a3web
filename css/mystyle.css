@@ -365,7 +365,7 @@ background:rgb(243, 243, 243);
   
   /* background color for button when it is hovered/clicked on */
   .active, .accordion:hover {
-	background-color:rgba(255, 141, 35, 0.041);
+	background-color:rgba(255, 141, 35, 0.082);
   }
   
   /* Styling Accordian */
@@ -435,21 +435,16 @@ background:rgb(243, 243, 243);
 /*styling for Ordered List on Health Tips Page */
 /* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox */
 dl.healthy {
+<<<<<<< HEAD
 	background-color: rgb(255, 255, 255);
+=======
+	background-color: lightyellow;
+>>>>>>> 11f9716f57f7cd25b23f6ed50b438bd595038efc
 	width: 100%;
 	float: left;
 	-webkit-flex: 2;
 	-ms-flex: 2;
 	flex: 2;
-}
-
-dl.healthy img{
-	float: left;
-	padding: 20px;
-	-webkit-flex: 1;
-	-moz-float: 1px;
-	-ms-float: 1px;
-	flex: 1px;
 }
 
 /* Styling Description List  */
@@ -463,6 +458,15 @@ dt {
 	color:  rgb(105, 160, 17);
 }
 
+dl.healthy img{
+	float: left;
+	padding: 20px;
+	margin: 10px;
+	-webkit-flex: 1;
+	-moz-float: 1px;
+	-ms-float: 1px;
+	flex: 1px;
+}
 
 dd { 
 	padding: 20px;
