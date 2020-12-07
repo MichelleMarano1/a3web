@@ -385,10 +385,10 @@ background:rgb(243, 243, 243);
 }
 
 .footer {
-	background-color: lightslategray;
+	background-color: black;
+	color: whitesmoke;
 	text-align: center;
-	padding: 10px;
-	margin: 10px;
+	padding: 15px;
 }
 
 
@@ -414,15 +414,17 @@ background:rgb(243, 243, 243);
 .sideicons{
 	width: 10%;
 	float: left;
-	background-color: darkseagreen;
-	overflow-x: hidden;
-	-webkit-flex: 1;
-	-ms-flex:1;
-	flex: 1;
+	background-color: lightgray;
+	-webkit-flex: 0;
+	-ms-flex:0;
+	flex: 0;
+	padding: 30px;
+
 }
 
 .sideicons img {
-	padding: 35px;
+	padding: 30px;
+	margin: 14px;
 }
 
 
@@ -444,8 +446,9 @@ dt {
 
 
 dd { 
-	padding: 12px;
-	
+	padding: 20px;
+	margin: 1.1px;
+
 }
 
 
@@ -458,11 +461,11 @@ dd {
 	color: white;
 }
 
-.health-section h1 {
+.study-section h1 {
 	color: lightyellow;
 }
 
-.health-section p {
+.study-section p {
 	color: mistyrose;
 }
 
