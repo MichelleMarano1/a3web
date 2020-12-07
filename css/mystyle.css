@@ -431,20 +431,6 @@ background:rgb(243, 243, 243);
 	color: lightyellow;
 }
 
-/*Style the icons in the side dive class*/
-/* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox */
-.sideicons{
-	width: 10%;
-	float: left;
-	background-color: lightgray;
-	-webkit-flex: 0;
-	-ms-flex:0;
-	flex: 0;
-	padding: 30px;
-
-}
-
-
 
 /*styling for Ordered List on Health Tips Page */
 /* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox */
