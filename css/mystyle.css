@@ -139,30 +139,30 @@ html {
 
   .container2 {
 	background-color:rgb(0, 182, 214);
-	padding: 0 16px;
+	padding: 1px;
 	-webkit-flex: 2;
 	-ms-flex: 2;
 	flex: 2;
+	height: 181px;
   }
   
   .title {
 	color: rgb(0, 191, 216);
-  }
-
-  .title2 {
-	color: rgb(255, 255, 255);
+	font: large;
   }
   
   .button {
 	border: none;
-	outline: 0;
-	display: inline-block;
+	text-decoration: none;
 	padding: 8px;
 	color: rgb(255, 255, 255);
 	background-color: rgb(0, 194, 228);
 	text-align: center;
 	cursor: pointer;
 	width: 100%;
+	height: 179px;
+	font-size: large;
+	font-weight: bold;
   }
   
   .button:hover {
@@ -171,14 +171,16 @@ html {
   
   .button2 {
 	border: none;
-	outline: 0;
-	display: inline-block;
 	padding: 8px;
 	color: rgb(0, 194, 228);
-	background-color: rgb(255, 255, 255);
 	text-align: center;
 	cursor: pointer;
 	width: 100%;
+	height: 179px;
+	font-size: large;
+	font-weight: bold;
+
+
   }
   
   .button2:hover {
@@ -201,12 +203,23 @@ h2 {color: darkslategray;
 text-align: center;
 }
 
-
-h5 {
-	color: rgb(36, 36, 36);
+.footer2 {
+	color: rgb(0, 194, 228);
+	background-color: rgb(46, 46, 46);
+	position: absolute ;
+	bottom: -102px;
+	width: 100%;
+	height: 2.5rem; 
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	  }
+@media screen and (max-width: 650px) {
+	.footer2 {
+	width: 100%;
+	display: block;
+	}
 }
-
-
 /*************************************************************************/
 /* HOLLIE - HOME PAGE*/
 /* main wrapper for images on index page */
@@ -378,14 +391,6 @@ background:rgb(243, 243, 243);
 	margin: 10px;
 }
 
-  
-.footer2 {
-	color: blue;
-	text-align: center;
-	padding: 10px;
-	margin: 10px;
-}
-
 
 /***************************************************************************/
 /*KEZIA HEALTH PAGE*/
@@ -405,41 +410,36 @@ background:rgb(243, 243, 243);
 .health-section {
 	padding: 50px;
 	text-align: center;
-	background-color: darkseagreen;
+	background-color: lavender;
 	color: white;
 }
 
 .health-section h1 {
-	color: midnightblue;
+	color: royalblue;
 }
 
 .health-section p {
 	color: midnightblue;
 }
 
-.info-health {
-	background-color: lightgray;
-	padding: 15px;
+.sideicons{
+	width: 200px;
+	position: left;
+	background-color: darkseagreen;
+	overflow-x: hidden;
 }
 
-.healthy {
-	background-color: lightskyblue;
-}
-.health-gallery {
-	background-color: lightgrey;
-}
-
-.health-gallery img {
+.sideicons img {
 	padding: 20px;
-	text-align: center;
+	margin: 20px;
 }
-
 
 ol.healthy {
 	background-color:lightgray;
 	-webkit-flex: 2;
 	-ms-flex: 2;
 	flex: 2;
+	position: right;
 }
 
 dt {
