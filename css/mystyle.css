@@ -447,7 +447,7 @@ background:rgb(243, 243, 243);
 }
 
 
-/*styling for Ordered List on Health Tips Page */
+/*styling for Description List on Health Tips Page */
 /* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox */
 dl.healthy {
 	background-color: rgb(255, 255, 255);
@@ -458,7 +458,7 @@ dl.healthy {
 	flex: 2;
 }
 
-/* Styling Description List  */
+/* Styling Description List */
 /* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_description */
 dt {
 	padding: 20px;
@@ -468,6 +468,7 @@ dt {
 	text-transform: uppercase;
 	color:  rgb(105, 160, 17);
 }
+
 h6{
 	padding: 0px;
 	font-size: large;
@@ -476,16 +477,6 @@ h6{
 	text-transform: uppercase;
 	color:  rgb(105, 160, 17);
 	margin-left: 24px;
-}
-
-
-dt.healthy {
-	padding: 20px;
-	font-size: large;
-	font-weight: bold;
-	text-decoration: underline;
-	text-transform: uppercase;
-	color:  rgb(105, 160, 17);
 }
 
 dl.healthy img{
@@ -543,7 +534,6 @@ ul.study {
 ul.study li {
 	color: slategray;
 	padding: 10px;
-	/* border-bottom: 1px solid mistyrose; */
 }
 
 
