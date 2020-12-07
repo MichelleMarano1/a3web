@@ -471,3 +471,22 @@ ol.study {
 
 
 /***********************************************************************/
+
+
+/* Matt Pages
+Software and applications of software and programming headers*/
+
+.software-section {
+	padding: 50px;
+	text-align: center;
+	background-color: #FEEB44;
+	color: black;
+  }
+
+.program-section {
+	padding: 50px;
+	text-align: center;
+	background-color: #a444fe;
+	color: black;
+  }
+/* modified from Michelle's about-section*/
