@@ -365,7 +365,7 @@ background:rgb(243, 243, 243);
   
   /* background color for button when it is hovered/clicked on */
   .active, .accordion:hover {
-	background-color:rgba(255, 141, 35, 0.041);
+	background-color:rgba(255, 141, 35, 0.082);
   }
   
   /* Styling Accordian */
