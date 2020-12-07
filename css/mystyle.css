@@ -162,13 +162,14 @@ html {
 	height: 179px;
 	font-size: large;
 	font-weight: bold;
+	margin-left: 33%;
   }
   
   .button:hover {
-	background-color: rgb(0, 182, 214);
+	background-color: rgb(65, 65, 65);
   }
   
-  .button2 {
+	.button2 {
 	border: none;
 	padding: 8px;
 	color: rgb(0, 194, 228);
@@ -178,9 +179,8 @@ html {
 	height: 179px;
 	font-size: large;
 	font-weight: bold;
-
-
-  }
+	margin-top: auto;
+  } 
   
   .button2:hover {
 	background-color: rgb(255, 141, 35);
@@ -213,7 +213,7 @@ padding: 1%;
 	text-align: center;
 	padding: 10px;
 	margin: 10px;
-	  }
+}
 @media screen and (max-width: 650px) {
 	.footer2 {
 	width: 100%;
