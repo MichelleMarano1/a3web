@@ -270,7 +270,7 @@ padding: 1%;
 	text-align: center;
 	padding: 5px;
 	background:rgb(255, 255, 255);
-	color: rgb(0, 194, 228);
+	color: rgb(97, 97, 97);
 	transition: all 1s ease;
 	/* text transitions for the text appearing refernce https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp */
 	p { 
@@ -281,7 +281,7 @@ padding: 1%;
   /* hover options. For experimenting and learning about transition options e.g speed and easing
    i referenced https://www.w3schools.com/css/css3_transitions.asp */
   .images:hover .layer {
-	opacity: 0.7;
+	opacity: 0.8;
 	width: 291px;
 	height: 211px;
 	border-radius: 12px;
@@ -347,7 +347,7 @@ background:rgb(243, 243, 243);
 /* HOllie- Forum/Questions Page*/
 
 .questions {
-	background-color: none;
+	background-color: rgb(243, 243, 243);
 }
 
 
