@@ -340,7 +340,7 @@ background:rgb(243, 243, 243);
 
 
 /*Michelles Button */
-/* .booton {
+ .booton {
 	border: none;
 	text-decoration: none;
 	padding: 7px;
@@ -354,8 +354,8 @@ background:rgb(243, 243, 243);
   }
 
   .booton:hover {
-	background-color: rgb(205, 228, 0);
-  } */
+	background-color: rgb(4, 255, 201);
+  } 
 
 /**************************************************************************/
 /**************************************************************************/
@@ -576,4 +576,10 @@ div.mattsection {
 ul.mattsection {
 	margin: 20px;
 }
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
 /* modified from Michelle's about-section*/
