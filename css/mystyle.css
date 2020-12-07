@@ -19,6 +19,10 @@ body {
 	display: none;
 }
 
+.main-nav.active {
+	display: block;
+}
+
 .nav-links,
 .guide {
 	text-decoration: none;
@@ -45,7 +49,18 @@ body {
 	right: 20px;
 	cursor: pointer;
 	color: rgba(233, 0, 0, 0.8);
+	border-top: 4px solid white;
+	border-bottom: 4px solid white;
 	font-size: 24px;
+	display:block;
+	margin-top: 4px;
+	height: 16px;
+	width: 24px;
+	transition: all linear 0.2s;
+}
+
+.navbar-toggle.active {
+	transform: rotate(90deg);
 }
 
 @media screen and (min-width: 768px) {
@@ -379,7 +394,7 @@ background:rgb(243, 243, 243);
   }
   
   /* background color for button when it is hovered/clicked on */
-  .active, .accordion:hover {
+  .accordion .active, .accordion:hover {
 	background-color:rgba(255, 141, 35, 0.082);
   }
   
@@ -406,12 +421,12 @@ background:rgb(243, 243, 243);
   }
 
   /*changing the icon after it has been clicked on to open up. */
-  .active:after {
+  .accordion .active:after {
 	content: "\229D"; /* for the minus symbol */
   }
 
 
-  
+
 /**************************************************************************/
 
 .main:after {
