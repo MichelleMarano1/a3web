@@ -423,19 +423,19 @@ background:rgb(243, 243, 243);
 .health-section {
 	padding: 50px;
 	text-align: center;
-	background-color: darkseagreen;
+	background-color: rgb(105, 160, 17);
 	color: white;
 }
 
 .health-section h1 {
-	color: lightyellow;
+	color: rgb(255, 255, 255);
 }
 
 
 /*styling for Ordered List on Health Tips Page */
 /* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox */
 dl.healthy {
-	background-color: lightgray;
+	background-color: rgb(255, 255, 255);
 	width: 100%;
 	float: left;
 	-webkit-flex: 2;
@@ -457,8 +457,10 @@ dl.healthy img{
 dt {
 	padding: 20px;
 	font-size: large;
+	font-weight: bold;
+	text-decoration: underline;
 	text-transform: uppercase;
-	color: #009e06;
+	color:  rgb(105, 160, 17);
 }
 
 
