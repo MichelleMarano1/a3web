@@ -474,12 +474,12 @@ dd {
 .study-section {
 	padding: 50px;
 	text-align: center;
-	background-color: lightsteelblue;
+	background-color: darkgoldenrod;
 	color: white;
 }
 
 .study-section h1 {
-	color: slategrey;
+	color: wheat;
 }
 
 .studytips {
