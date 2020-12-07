@@ -388,7 +388,6 @@ background:rgb(243, 243, 243);
 	background-color: lightslategray;
 	text-align: center;
 	padding: 10px;
-	margin: 10px;
 }
 
 
@@ -424,6 +423,7 @@ background:rgb(243, 243, 243);
 
 .sideicons img {
 	padding: 30px;
+	margin: 0.70px;
 }
 
 
@@ -445,8 +445,7 @@ dt {
 
 
 dd { 
-	padding: 20px;
-	
+	padding: 40px;
 }
 
 
