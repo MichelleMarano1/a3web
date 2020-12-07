@@ -398,12 +398,45 @@ background:rgb(243, 243, 243);
 	color: #62ca00;
 } */
 
-.info-health.h1 {
+/* .info-health.h1 {
 	color: #62ca00;
+} */
+
+.health-section {
+	padding: 50px;
+	text-align: center;
+	background-color: darkseagreen;
+	color: white;
 }
 
+.health-section h1 {
+	color: midnightblue;
+}
+
+.health-section p {
+	color: midnightblue;
+}
+
+.info-health {
+	background-color: lightgray;
+	padding: 15px;
+}
+
+.healthy {
+	background-color: lightskyblue;
+}
+.health-gallery {
+	background-color: lightgrey;
+}
+
+.health-gallery img {
+	padding: 20px;
+	text-align: center;
+}
+
+
 ol.healthy {
-	background-color: #635858;
+	background-color:lightgray;
 	-webkit-flex: 2;
 	-ms-flex: 2;
 	flex: 2;
@@ -421,6 +454,8 @@ dd {
 	padding: 12px;
 	
 }
+
+
 
 /*KEZIA STUDY PAGE*/
 /*styling for Ordered List on Study Tips Page*/
