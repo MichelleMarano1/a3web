@@ -435,13 +435,13 @@ dt {
 	color:  rgb(105, 160, 17);
 }
 h6{
-	padding: 1px;
+	padding: 0px;
 	font-size: large;
 	font-weight: bold;
 	text-decoration: underline;
 	text-transform: uppercase;
 	color:  rgb(105, 160, 17);
-	margin-left: 122px;
+	margin-left: 24px;
 }
 
 
@@ -465,8 +465,8 @@ dl.healthy img{
 }
 
 dd { 
-	padding: 20px;
-	margin: 1.1px;
+	padding: 21px;
+	margin: 29.1px;
 }
 
 /*KEZIA STUDY PAGE*/
