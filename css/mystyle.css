@@ -435,21 +435,12 @@ background:rgb(243, 243, 243);
 /*styling for Ordered List on Health Tips Page */
 /* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox */
 dl.healthy {
-	background-color: lightgray;
+	background-color: lightyellow;
 	width: 100%;
 	float: left;
 	-webkit-flex: 2;
 	-ms-flex: 2;
 	flex: 2;
-}
-
-dl.healthy img{
-	float: left;
-	padding: 20px;
-	-webkit-flex: 1;
-	-moz-float: 1px;
-	-ms-float: 1px;
-	flex: 1px;
 }
 
 /* Styling Description List  */
@@ -461,6 +452,15 @@ dt {
 	color: #009e06;
 }
 
+dl.healthy img{
+	float: left;
+	padding: 20px;
+	margin: 10px;
+	-webkit-flex: 1;
+	-moz-float: 1px;
+	-ms-float: 1px;
+	flex: 1px;
+}
 
 dd { 
 	padding: 20px;
