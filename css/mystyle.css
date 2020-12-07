@@ -409,6 +409,9 @@ background:rgb(243, 243, 243);
   .active:after {
 	content: "\229D"; /* for the minus symbol */
   }
+
+
+  
 /**************************************************************************/
 
 .main:after {
