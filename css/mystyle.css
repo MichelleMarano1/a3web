@@ -484,4 +484,13 @@ Software and applications of software and programming headers*/
 	background-color: #a444fe;
 	color: black;
   }
+
+div.mattsection {
+	margin: 80px;
+	text-align: left;
+}
+
+ul.mattsection {
+	margin: 20px;
+}
 /* modified from Michelle's about-section*/
