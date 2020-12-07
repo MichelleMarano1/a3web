@@ -410,41 +410,36 @@ background:rgb(243, 243, 243);
 .health-section {
 	padding: 50px;
 	text-align: center;
-	background-color: darkseagreen;
+	background-color: lavender;
 	color: white;
 }
 
 .health-section h1 {
-	color: midnightblue;
+	color: royalblue;
 }
 
 .health-section p {
 	color: midnightblue;
 }
 
-.info-health {
-	background-color: lightgray;
-	padding: 15px;
+.sideicons{
+	width: 200px;
+	position: left;
+	background-color: darkseagreen;
+	overflow-x: hidden;
 }
 
-.healthy {
-	background-color: lightskyblue;
-}
-.health-gallery {
-	background-color: lightgrey;
-}
-
-.health-gallery img {
+.sideicons img {
 	padding: 20px;
-	text-align: center;
+	margin: 20px;
 }
-
 
 ol.healthy {
 	background-color:lightgray;
 	-webkit-flex: 2;
 	-ms-flex: 2;
 	flex: 2;
+	position: right;
 }
 
 dt {
@@ -489,4 +484,13 @@ Software and applications of software and programming headers*/
 	background-color: #a444fe;
 	color: black;
   }
+
+div.mattsection {
+	margin: 80px;
+	text-align: left;
+}
+
+ul.mattsection {
+	margin: 20px;
+}
 /* modified from Michelle's about-section*/
