@@ -399,16 +399,16 @@ background:rgb(243, 243, 243);
 .health-section {
 	padding: 50px;
 	text-align: center;
-	background-color: lavender;
+	background-color: darkseagreen;
 	color: white;
 }
 
 .health-section h1 {
-	color: royalblue;
+	color: lightyellow;
 }
 
 .health-section p {
-	color: midnightblue;
+	color: mistyrose;
 }
 
 .sideicons{
@@ -422,8 +422,7 @@ background:rgb(243, 243, 243);
 }
 
 .sideicons img {
-	padding: 20px;
-	margin: 20px;
+	padding: 35px;
 }
 
 
@@ -452,8 +451,28 @@ dd {
 
 /*KEZIA STUDY PAGE*/
 /*styling for Ordered List on Study Tips Page*/
+.study-section {
+	padding: 50px;
+	text-align: center;
+	background-color: lightsteelblue;
+	color: white;
+}
+
+.health-section h1 {
+	color: lightyellow;
+}
+
+.health-section p {
+	color: mistyrose;
+}
+
+.studytips {
+	background-color: white;
+}
+
 ol.study {
 	padding: 15px;
+	margin: 20px;
 }
 
 
