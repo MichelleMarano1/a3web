@@ -323,22 +323,21 @@ background:rgb(243, 243, 243);
 
 }
 
-.button {
+.booton {
 	border: none;
 	text-decoration: none;
 	padding: 7px;
 	color: rgb(255, 255, 255);
-	background-color: rgb(0, 194, 228);
+	background-color: rgb(255, 141, 35);
 	text-align: center;
 	cursor: pointer;
 	height: 179px;
 	font-size: large;
 	font-weight: bold;
-	margin-left: 33%;
   }
 
-  .button:hover {
-	background-color: rgb(65, 65, 65);
+  .booton:hover {
+	background-color: rgb(205, 228, 0);
   }
 
 /**************************************************************************/
