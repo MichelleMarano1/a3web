@@ -466,3 +466,15 @@ ol.study {
 
 
 /***********************************************************************/
+
+
+/* Matt Pages
+Software and applications of software*/
+
+.software-section {
+	padding: 50px;
+	text-align: center;
+	background-color: #FEEB44;
+	color: black;
+  }
+/* modified from Michelle's about-section*/
