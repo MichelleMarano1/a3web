@@ -435,11 +435,7 @@ background:rgb(243, 243, 243);
 /*styling for Ordered List on Health Tips Page */
 /* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox */
 dl.healthy {
-<<<<<<< HEAD
 	background-color: rgb(255, 255, 255);
-=======
-	background-color: lightyellow;
->>>>>>> 11f9716f57f7cd25b23f6ed50b438bd595038efc
 	width: 100%;
 	float: left;
 	-webkit-flex: 2;
@@ -471,9 +467,7 @@ dl.healthy img{
 dd { 
 	padding: 20px;
 	margin: 1.1px;
-
 }
-
 
 /*KEZIA STUDY PAGE*/
 /* Style the header, modified from Michelle's about-section*/
