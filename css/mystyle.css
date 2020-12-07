@@ -201,8 +201,15 @@ html {
 	padding: 50px;
 	text-align: center;
 	background-color: rgb(211, 189, 221);
-	color: rgb(105, 105, 105);
+	color: rgb(92, 92, 92);
   }
+
+.specs-section{
+	padding: 50px;
+	text-align: center;
+	background-color: rgb(182, 125, 137);
+	color: rgb(92, 92, 92);
+}
 
 h1 {
 	color: rgb(42, 42, 42);
@@ -356,7 +363,7 @@ background:rgb(243, 243, 243);
   
   /* background color for button when it is hovered/clicked on */
   .active, .accordion:hover {
-	background-color: #e7f1ff;
+	background-color: #f9f4fd;
   }
   
   /* Styling Accordian */
