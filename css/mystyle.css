@@ -414,15 +414,16 @@ background:rgb(243, 243, 243);
 .sideicons{
 	width: 10%;
 	float: left;
-	background-color: darkseagreen;
+	background-color: lightgray;
 	overflow-x: hidden;
 	-webkit-flex: 1;
 	-ms-flex:1;
 	flex: 1;
+	padding: 20px;
 }
 
 .sideicons img {
-	padding: 35px;
+	padding: 30px;
 }
 
 
@@ -444,7 +445,7 @@ dt {
 
 
 dd { 
-	padding: 12px;
+	padding: 20px;
 	
 }
 
@@ -458,11 +459,11 @@ dd {
 	color: white;
 }
 
-.health-section h1 {
+.study-section h1 {
 	color: lightyellow;
 }
 
-.health-section p {
+.study-section p {
 	color: mistyrose;
 }
 
