@@ -47,8 +47,6 @@ body {
 	position: absolute;
 	top: 10px;
 	right: 20px;
-	cursor: pointer;
-	color: rgba(233, 0, 0, 0.8);
 	border-top: 4px solid white;
 	border-bottom: 4px solid white;
 	font-size: 24px;
@@ -88,9 +86,6 @@ body {
 	}
 	.guide {
 		margin-top: 0;
-	}
-	.navbar-toggle {
-		display: none;
 	}
 
 	.guide:hover,
