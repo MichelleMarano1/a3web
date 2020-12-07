@@ -90,14 +90,12 @@ body {
 .background-about{
 	background-color: #ffffff;
 }
-.about-section h1 {
-	color: rgb(0, 191, 216);
-}
-.footer-about h5 {
+
+/* .footer-about h5 {
 	text-align: center;
 	padding: 10px;
 	margin: 10px;
-}
+} */
 /*Adapted From: HTML and CSS design and build websites.pdf pg.452*/
 /*To style the header section of my layout*/
 html {
@@ -107,29 +105,25 @@ html {
   *, *:before, *:after {
 	box-sizing: inherit;
   }
-  
-  .column {
-	float: left;
-	width: 33.3%;
-	margin-bottom: 16px;
-	padding: 0 8px;
-  }
-  .column2 {
-	float: left;
-	width: 33.3%;
-	margin-bottom: 16px;
-	padding: 0 8px;
-  }
-  
+
+  .about-section h1 {
+	color: rgb(0, 191, 216);
+}
   .about-section {
 	padding: 50px;
 	text-align: center;
 	background-color: #444444;
 	color: white;
   }
-  
-  .container {
-	
+
+  .column {
+	float: left;
+	width: 33.3%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+  }
+
+  .container {	
 	background-color: #e6e6e6;
 	padding: 0 16px;
 	-webkit-flex: 2;
@@ -138,7 +132,6 @@ html {
   }
 
   .container2 {
-	background-color:rgb(0, 182, 214);
 	padding: 0 16px;
 	-webkit-flex: 2;
 	-ms-flex: 2;
@@ -147,43 +140,45 @@ html {
   
   .title {
 	color: rgb(0, 191, 216);
+	font: large;
   }
 
-  .title2 {
-	color: rgb(255, 255, 255);
-  }
-  
   .button {
 	border: none;
-	outline: 0;
-	display: inline-block;
-	padding: 8px;
+	text-decoration: none;
+	padding: 7px;
 	color: rgb(255, 255, 255);
 	background-color: rgb(0, 194, 228);
 	text-align: center;
 	cursor: pointer;
-	width: 100%;
+	height: 179px;
+	font-size: large;
+	font-weight: bold;
+	margin-left: 33%;
   }
-  
+
   .button:hover {
-	background-color: rgb(0, 182, 214);
+	background-color: rgb(65, 65, 65);
   }
   
-  .button2 {
-	border: none;
-	outline: 0;
-	display: inline-block;
-	padding: 8px;
-	color: rgb(0, 194, 228);
-	background-color: rgb(255, 255, 255);
+  .clickme {
 	text-align: center;
+	color:rgb(255, 255, 255) ;
+	background-color: rgb(0, 194, 228) ;
+	text-decoration: none;
 	cursor: pointer;
-	width: 100%;
+	font-size: large;
+	font-weight: bold;
+	float: left;
+	margin-left: 8px;
+	padding: 79px 8px;
+	width: 33%;
   }
   
-  .button2:hover {
+  .clickme:hover {
 	background-color: rgb(255, 141, 35);
   }
+
   @media screen and (max-width: 650px) {
 	.column {
 	  width: 100%;
@@ -192,21 +187,48 @@ html {
   }
 /*****************************************************************************/
 /*Styling h1*/
+.setup-section h1 {
+	color: rgb(255, 255, 255);
+}
+.setup-section {
+	padding: 50px;
+	text-align: center;
+	background-color: rgb(0, 191, 216);
+	color: rgb(27, 27, 27);
+  }
+  
+.Forum-section{
+	padding: 50px;
+	text-align: center;
+	background-color: rgb(233, 124, 0);
+	color: rgb(27, 27, 27);
+  }
+
 h1 {
-	color: rgb(19, 19, 19);
+	color: rgb(42, 42, 42);
 	text-align: center;
 }
 
-h2 {color: darkslategray;
+h2 {color: rgb(42, 42, 42);
 text-align: center;
+padding: 1%;
 }
 
-
-h5 {
-	color: rgb(36, 36, 36);
+.footer2 {
+	color: rgb(0, 194, 228);
+	background-color: rgb(46, 46, 46);
+	width: 100%;
+	height: 2%; 
+	text-align: center;
+	padding: 1%;
+	margin-top: 37%;
 }
-
-
+@media screen and (max-width: 650px) {
+	.footer2 {
+	width: 100%;
+	display: block;
+	}
+}
 /*************************************************************************/
 /* HOLLIE - HOME PAGE*/
 /* main wrapper for images on index page */
@@ -230,17 +252,19 @@ display: flex;
 
 /* this is for the text layer that is presnt when hovering over image */
 .layer {
+	font-size: 20px;
+	font-weight: bold;
 	opacity: 0;
 	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100px;
-	height: 90%;
+	width: 50px;
+	height: 60%;
 	text-align: center;
 	padding: 5px;
-	background: #FFF;
-	color: #be0085;
+	background:rgb(255, 255, 255);
+	color: rgb(0, 194, 228);
 	transition: all 1s ease;
 	/* text transitions for the text appearing refernce https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp */
 	p {
@@ -375,40 +399,59 @@ background:rgb(243, 243, 243);
 }
 
 .footer {
-	background-color: aliceblue;
+	color: rgb(0, 194, 228);
+	background-color: rgb(46, 46, 46);
 	text-align: center;
-	padding: 10px;
-	border-radius: 25px;
-	margin: 10px;
-  }
-
-  
-.footer2 {
-	color: blue;
-	text-align: center;
-	padding: 10px;
-	margin: 10px;
-  }
-
+	width: 100%;
+	padding: 1%;
+}
 
 /***************************************************************************/
 /*KEZIA HEALTH PAGE*/
+
+/*Style the header, modified from Michelle's about-section*/
+.health-section {
+	padding: 50px;
+	text-align: center;
+	background-color: darkseagreen;
+	color: white;
+}
+
+.health-section h1 {
+	color: lightyellow;
+}
+
+/*Style the icons in the side dive class*/
+/* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox */
+.sideicons{
+	width: 10%;
+	float: left;
+	background-color: lightgray;
+	-webkit-flex: 0;
+	-ms-flex:0;
+	flex: 0;
+	padding: 30px;
+
+}
+
+.sideicons img {
+	padding: 30px;
+	margin: 14px;
+}
+
 /*styling for Ordered List on Health Tips Page */
-h1.info-health  {
-	color: #004e37;
-}
-
-.TI  {
-	color: #62ca00;
-}
-
-ol.healthy {
-	background-color: #635858;
+/* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox */
+dl.healthy {
+	background-color: lightgray;
+	width: 90%;
+	float: left;
 	-webkit-flex: 2;
 	-ms-flex: 2;
 	flex: 2;
 }
 
+/* Styling Description List  */
+/* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_description */
 dt {
 	padding: 20px;
 	font-size: large;
@@ -418,15 +461,75 @@ dt {
 
 
 dd { 
-	padding: 12px;
-	
+	padding: 20px;
+	margin: 1.1px;
+
 }
 
+
 /*KEZIA STUDY PAGE*/
-/*styling for Ordered List on Study Tips Page*/
-ol.study {
-	padding: 15px;
+/* Style the header, modified from Michelle's about-section*/
+.study-section {
+	padding: 50px;
+	text-align: center;
+	background-color: lightsteelblue;
+	color: white;
 }
+
+.study-section h1 {
+	color: slategrey;
+}
+
+.studytips {
+	background-color: white;
+}
+
+
+/* Style the Ordered List */
+/* Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_list-style-red-border */
+ul.study {
+	padding: 15px;
+	margin: 20px;
+	border-left: 5px solid mistyrose;
+	list-style-type: none;
+	padding: 10px 20px;
+}
+
+/* Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_list-style-border */
+ul.study li {
+	color: slategray;
+	padding: 10px;
+	/* border-bottom: 1px solid mistyrose; */
+}
+
 
 
 /***********************************************************************/
+
+
+/* Matt Pages
+Software and applications of software and programming headers*/
+
+.software-section {
+	padding: 50px;
+	text-align: center;
+	background-color: #FEEB44;
+	color: black;
+  }
+
+.program-section {
+	padding: 50px;
+	text-align: center;
+	background-color: #a444fe;
+	color: black;
+  }
+
+div.mattsection {
+	margin: 80px;
+	text-align: left;
+}
+
+ul.mattsection {
+	margin: 20px;
+}
+/* modified from Michelle's about-section*/
