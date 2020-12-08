@@ -588,6 +588,11 @@ ul.mattsection {
 	margin: 20px;
 }
 
+ul.hollieFix li{
+	padding: 10px;
+	list-style-type: none;
+}
+
 .center {
 	display: block;
 	margin-left: auto;
