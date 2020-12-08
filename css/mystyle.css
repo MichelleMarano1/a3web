@@ -1,3 +1,4 @@
+/* Michelle style for all pages */
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -12,6 +13,8 @@ body {
 	overflow:hidden;
 }
 
+/* Michelles Nav Bar 
+created with https://www.w3schools.com/howto/howto_js_topnav_responsive.asp and https://www.freecodecamp.org/news/how-to-build-a-responsive-navbar-with-a-toggle-menu-using-flexbox-3438e1d08783/ */
 .navbar {
 	font-size: 16px;
 	background-image: linear-gradient(260deg, #333333 0%, #1f1f1f 100%);
@@ -45,9 +48,7 @@ body {
 	margin-top: 10px;
 	margin-left: 20px;
   }
-
-/********************* Michelle NAVBAR **********************************/
-
+/* How the NavBar toggles up and down when in a small screen */
 .navbar-toggle {
 	position: absolute;
 	top: 10px;
@@ -113,12 +114,7 @@ body {
 	background-color: #ffffff;
 }
 
-/* .footer-about h5 {
-	text-align: center;
-	padding: 10px;
-	margin: 10px;
-} */
-/*Adapted From: HTML and CSS design and build websites.pdf pg.452*/
+/*https://www.w3schools.com/howto/howto_css_about_page.asp*/
 /*To style the header section of my layout*/
 html {
 	box-sizing: border-box;
@@ -165,6 +161,7 @@ html {
 	font: large;
   }
 
+/*Michelles Button for links on about us page */
   .button {
 	border: none;
 	text-decoration: none;
@@ -234,6 +231,7 @@ html {
 	background-color:rgb(4, 255, 201);
 }
 
+/*Michelle */
 h1 {
 	color: rgb(42, 42, 42);
 	text-align: center;
@@ -244,6 +242,7 @@ text-align: center;
 padding: 1%;
 }
 
+/* Michelle Footer for about us page*/
 .footer2 {
 	color: rgb(0, 194, 228);
 	background-color: rgb(46, 46, 46);
@@ -359,7 +358,7 @@ background:rgb(243, 243, 243);
 }
 
 
-/*Michelles Button */
+/*Michelles Button for links on specs page */
  .booton {
 	border: none;
 	text-decoration: none;
@@ -445,6 +444,7 @@ background:rgb(243, 243, 243);
 	background-color: ghostwhite;
 }
 
+/* Michelle */
 .footer {
 	color: rgb(0, 194, 228);
 	background-color: rgb(46, 46, 46);

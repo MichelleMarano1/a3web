@@ -1,6 +1,8 @@
+/*Michelle Marano https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-eb0af24f19bf*/
+
 let mainNav = document.getElementById('js-menu');
 let navBarToggle = document.getElementById('js-navbar-toggle');
-
+/* This toggles the nav bar when on a small screen */
 navBarToggle.addEventListener('click', function () {
   mainNav.classList.toggle('active');
   navBarToggle.classList.toggle('active');
