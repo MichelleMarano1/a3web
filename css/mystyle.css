@@ -523,7 +523,7 @@ background:rgb(243, 243, 243);
 }
 
 .health-content p {
-	color: slategray;
+	color: rgb(50, 57, 63);
 	padding: 10px;
 }
 
@@ -541,7 +541,7 @@ background:rgb(243, 243, 243);
 }
 
 .studytips p {
-	color: darkslategray;
+	color: rgb(52, 54, 54);
 	padding: 10px;
 	margin: 10px;
 	text-shadow: 2px 2px 5px lightcyan;
@@ -565,7 +565,7 @@ ul.study {
 
 /* Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_list-style-border */
 ul.study li {
-	color: slategray;
+	color: #4c5054;
 	padding: 10px;
 }
 
