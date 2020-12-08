@@ -482,6 +482,10 @@ background:rgb(243, 243, 243);
 	flex: 2;
 }
 
+.health-content p {
+	color: red;
+}
+
 /* Styling Description List */
 /* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_description */
 
