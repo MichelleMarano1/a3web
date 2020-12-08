@@ -504,6 +504,8 @@ background:rgb(243, 243, 243);
 	margin-left: 24px;
 }
 
+/* Style the images on the Health page */
+/* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox */
 .health-content img{
 	float: left;
 	padding: 15px;
