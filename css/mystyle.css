@@ -486,7 +486,17 @@ background:rgb(243, 243, 243);
 /* Styling Description List */
 /* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_description */
 
-h6{
+.health-content h5{
+	padding: 20px;
+	font-size: large;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color:  rgb(105, 160, 17);
+	margin-left: 77px;
+}
+
+.health-content h6{
 	padding: 20px;
 	font-size: large;
 	font-weight: bold;
@@ -498,14 +508,17 @@ h6{
 
 .health-content img{
 	float: left;
-	padding: 20px;
-	margin: 10px;
+	padding: 15px;
 	-webkit-flex: 1;
 	-moz-float: 1px;
 	-ms-float: 1px;
 	flex: 1px;
 }
 
+.health-content p {
+	color: slategray;
+	padding: 10px;
+}
 
 /*KEZIA STUDY PAGE*/
 /* Style the header, modified from Michelle's about-section*/
