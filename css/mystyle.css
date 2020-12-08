@@ -3,6 +3,7 @@
 	padding: 0;
 	margin-top: 0px;
 }
+
 body {
 	font-family: 'Josefin Sans', sans-serif;
 }
@@ -194,6 +195,7 @@ html {
 	margin-left: 8px;
 	padding: 79px 8px;
 	width: 33%;
+	overflow: hidden;
   }
   
   .clickme:hover {
