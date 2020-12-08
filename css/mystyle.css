@@ -473,7 +473,7 @@ background:rgb(243, 243, 243);
 
 /*styling for Description List on Health Tips Page */
 /* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox */
-dl.healthy {
+.health-content {
 	background-color: rgb(255, 255, 255);
 	width: 100%;
 	float: left;
@@ -484,17 +484,9 @@ dl.healthy {
 
 /* Styling Description List */
 /* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_description */
-dt {
-	padding: 20px;
-	font-size: large;
-	font-weight: bold;
-	text-decoration: underline;
-	text-transform: uppercase;
-	color:  rgb(105, 160, 17);
-}
 
 h6{
-	padding: 0px;
+	padding: 20px;
 	font-size: large;
 	font-weight: bold;
 	text-decoration: underline;
@@ -503,7 +495,12 @@ h6{
 	margin-left: 24px;
 }
 
-dl.healthy img{
+.health-content p {
+	color: slategrey;
+	padding: 10px;
+}
+
+.health-content img{
 	float: left;
 	padding: 20px;
 	margin: 10px;
@@ -513,10 +510,6 @@ dl.healthy img{
 	flex: 1px;
 }
 
-dd { 
-	padding: 21px;
-	margin: 29.1px;
-}
 
 /*KEZIA STUDY PAGE*/
 /* Style the header, modified from Michelle's about-section*/
