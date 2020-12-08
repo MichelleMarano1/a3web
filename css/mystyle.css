@@ -445,12 +445,19 @@ background:rgb(243, 243, 243);
 }
 
 /* Michelle */
-.footer {
+.footer  {
 	color: rgb(0, 194, 228);
 	background-color: rgb(46, 46, 46);
 	text-align: center;
 	width: 100%;
 	padding: 1%;
+}
+
+/* Michelle */
+.footer h6 a {
+	color: rgb(230, 230, 230);
+	text-decoration: none;
+	cursor: pointer;
 }
 
 /***************************************************************************/
