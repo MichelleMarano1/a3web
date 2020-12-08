@@ -482,9 +482,6 @@ background:rgb(243, 243, 243);
 	flex: 2;
 }
 
-.health-content p {
-	color: red;
-}
 
 /* Styling Description List */
 /* Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_description */
@@ -497,11 +494,6 @@ h6{
 	text-transform: uppercase;
 	color:  rgb(105, 160, 17);
 	margin-left: 24px;
-}
-
-.health-content p {
-	color: slategrey;
-	padding: 10px;
 }
 
 .health-content img{
