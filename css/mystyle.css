@@ -297,9 +297,9 @@ padding: 1%;
 	color: rgb(97, 97, 97);
 	transition: all 1s ease;
 	/* text transitions for the text appearing refernce https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp */
-	p { 
+	/* p { 
 		transition: ease-out;
-	}
+	} */
   }
   
   /* hover options. For experimenting and learning about transition options e.g speed and easing
